@@ -1,0 +1,398 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CEB61A3F1CED57B900B40FD1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CEB61A3E1CED57B900B40FD1 /* main.m */; };
+		CEB61A421CED57B900B40FD1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CEB61A411CED57B900B40FD1 /* AppDelegate.m */; };
+		CEB61A451CED57B900B40FD1 /* PresentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CEB61A441CED57B900B40FD1 /* PresentViewController.m */; };
+		CEB61A481CED57B900B40FD1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEB61A461CED57B900B40FD1 /* Main.storyboard */; };
+		CEB61A4A1CED57B900B40FD1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CEB61A491CED57B900B40FD1 /* Assets.xcassets */; };
+		CEB61A4D1CED57B900B40FD1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEB61A4B1CED57B900B40FD1 /* LaunchScreen.storyboard */; };
+		D837720E1D1A8827001593E4 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D837720D1D1A8827001593E4 /* DetailViewController.m */; };
+		D837721B1D1A8899001593E4 /* CollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D83772111D1A8899001593E4 /* CollectionViewCell.m */; };
+		D837721C1D1A8899001593E4 /* CollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D83772121D1A8899001593E4 /* CollectionViewCell.xib */; };
+		D837721D1D1A8899001593E4 /* TableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D83772141D1A8899001593E4 /* TableViewCell.m */; };
+		D837721E1D1A8899001593E4 /* TableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D83772151D1A8899001593E4 /* TableViewCell.xib */; };
+		D837721F1D1A8899001593E4 /* collectionViewFlowLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = D83772181D1A8899001593E4 /* collectionViewFlowLayout.m */; };
+		D83772201D1A8899001593E4 /* YXBJFCollectionViewFlowLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = D837721A1D1A8899001593E4 /* YXBJFCollectionViewFlowLayout.m */; };
+		D83772241D1A8971001593E4 /* TranslationAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = D83772231D1A8971001593E4 /* TranslationAnimation.m */; };
+		D8F7EA971D1CE0FB002FABE1 /* SwipGestureTranslaiton.m in Sources */ = {isa = PBXBuildFile; fileRef = D8F7EA961D1CE0FB002FABE1 /* SwipGestureTranslaiton.m */; };
+		D8F7EAA01D1D28B8002FABE1 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D8F7EA9F1D1D28B8002FABE1 /* FirstViewController.m */; };
+		D8F7EAA31D1D2AFC002FABE1 /* PushViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D8F7EAA21D1D2AFC002FABE1 /* PushViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		CEB61A3A1CED57B900B40FD1 /* 类似京东分类的效果.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "类似京东分类的效果.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEB61A3E1CED57B900B40FD1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CEB61A401CED57B900B40FD1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CEB61A411CED57B900B40FD1 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CEB61A431CED57B900B40FD1 /* PresentViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PresentViewController.h; sourceTree = "<group>"; };
+		CEB61A441CED57B900B40FD1 /* PresentViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PresentViewController.m; sourceTree = "<group>"; };
+		CEB61A471CED57B900B40FD1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CEB61A491CED57B900B40FD1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CEB61A4C1CED57B900B40FD1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CEB61A4E1CED57B900B40FD1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D837720C1D1A8827001593E4 /* DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		D837720D1D1A8827001593E4 /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		D83772101D1A8899001593E4 /* CollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CollectionViewCell.h; sourceTree = "<group>"; };
+		D83772111D1A8899001593E4 /* CollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CollectionViewCell.m; sourceTree = "<group>"; };
+		D83772121D1A8899001593E4 /* CollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CollectionViewCell.xib; sourceTree = "<group>"; };
+		D83772131D1A8899001593E4 /* TableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewCell.h; sourceTree = "<group>"; };
+		D83772141D1A8899001593E4 /* TableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewCell.m; sourceTree = "<group>"; };
+		D83772151D1A8899001593E4 /* TableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TableViewCell.xib; sourceTree = "<group>"; };
+		D83772171D1A8899001593E4 /* collectionViewFlowLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = collectionViewFlowLayout.h; sourceTree = "<group>"; };
+		D83772181D1A8899001593E4 /* collectionViewFlowLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = collectionViewFlowLayout.m; sourceTree = "<group>"; };
+		D83772191D1A8899001593E4 /* YXBJFCollectionViewFlowLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YXBJFCollectionViewFlowLayout.h; sourceTree = "<group>"; };
+		D837721A1D1A8899001593E4 /* YXBJFCollectionViewFlowLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YXBJFCollectionViewFlowLayout.m; sourceTree = "<group>"; };
+		D83772221D1A8971001593E4 /* TranslationAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TranslationAnimation.h; sourceTree = "<group>"; };
+		D83772231D1A8971001593E4 /* TranslationAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TranslationAnimation.m; sourceTree = "<group>"; };
+		D8F7EA951D1CE0FB002FABE1 /* SwipGestureTranslaiton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SwipGestureTranslaiton.h; path = ../../SwipGestureTranslaiton.h; sourceTree = "<group>"; };
+		D8F7EA961D1CE0FB002FABE1 /* SwipGestureTranslaiton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SwipGestureTranslaiton.m; path = ../../SwipGestureTranslaiton.m; sourceTree = "<group>"; };
+		D8F7EA9E1D1D28B8002FABE1 /* FirstViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
+		D8F7EA9F1D1D28B8002FABE1 /* FirstViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		D8F7EAA11D1D2AFC002FABE1 /* PushViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PushViewController.h; sourceTree = "<group>"; };
+		D8F7EAA21D1D2AFC002FABE1 /* PushViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PushViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CEB61A371CED57B900B40FD1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CEB61A311CED57B900B40FD1 = {
+			isa = PBXGroup;
+			children = (
+				CEB61A3C1CED57B900B40FD1 /* 类似京东分类的效果 */,
+				CEB61A3B1CED57B900B40FD1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CEB61A3B1CED57B900B40FD1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CEB61A3A1CED57B900B40FD1 /* 类似京东分类的效果.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CEB61A3C1CED57B900B40FD1 /* 类似京东分类的效果 */ = {
+			isa = PBXGroup;
+			children = (
+				CEB61A401CED57B900B40FD1 /* AppDelegate.h */,
+				CEB61A411CED57B900B40FD1 /* AppDelegate.m */,
+				D8F7EA9E1D1D28B8002FABE1 /* FirstViewController.h */,
+				D8F7EA9F1D1D28B8002FABE1 /* FirstViewController.m */,
+				CEB61A431CED57B900B40FD1 /* PresentViewController.h */,
+				CEB61A441CED57B900B40FD1 /* PresentViewController.m */,
+				D8F7EAA11D1D2AFC002FABE1 /* PushViewController.h */,
+				D8F7EAA21D1D2AFC002FABE1 /* PushViewController.m */,
+				D837720C1D1A8827001593E4 /* DetailViewController.h */,
+				D837720D1D1A8827001593E4 /* DetailViewController.m */,
+				D837720F1D1A8899001593E4 /* cell */,
+				D83772161D1A8899001593E4 /* layout */,
+				D83772211D1A88C8001593E4 /* TranslationAnimaiton */,
+				CEB61A461CED57B900B40FD1 /* Main.storyboard */,
+				CEB61A491CED57B900B40FD1 /* Assets.xcassets */,
+				CEB61A4B1CED57B900B40FD1 /* LaunchScreen.storyboard */,
+				CEB61A4E1CED57B900B40FD1 /* Info.plist */,
+				CEB61A3D1CED57B900B40FD1 /* Supporting Files */,
+			);
+			path = "类似京东分类的效果";
+			sourceTree = "<group>";
+		};
+		CEB61A3D1CED57B900B40FD1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CEB61A3E1CED57B900B40FD1 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D837720F1D1A8899001593E4 /* cell */ = {
+			isa = PBXGroup;
+			children = (
+				D83772101D1A8899001593E4 /* CollectionViewCell.h */,
+				D83772111D1A8899001593E4 /* CollectionViewCell.m */,
+				D83772121D1A8899001593E4 /* CollectionViewCell.xib */,
+				D83772131D1A8899001593E4 /* TableViewCell.h */,
+				D83772141D1A8899001593E4 /* TableViewCell.m */,
+				D83772151D1A8899001593E4 /* TableViewCell.xib */,
+			);
+			path = cell;
+			sourceTree = "<group>";
+		};
+		D83772161D1A8899001593E4 /* layout */ = {
+			isa = PBXGroup;
+			children = (
+				D83772171D1A8899001593E4 /* collectionViewFlowLayout.h */,
+				D83772181D1A8899001593E4 /* collectionViewFlowLayout.m */,
+				D83772191D1A8899001593E4 /* YXBJFCollectionViewFlowLayout.h */,
+				D837721A1D1A8899001593E4 /* YXBJFCollectionViewFlowLayout.m */,
+			);
+			path = layout;
+			sourceTree = "<group>";
+		};
+		D83772211D1A88C8001593E4 /* TranslationAnimaiton */ = {
+			isa = PBXGroup;
+			children = (
+				D83772221D1A8971001593E4 /* TranslationAnimation.h */,
+				D83772231D1A8971001593E4 /* TranslationAnimation.m */,
+				D8F7EA951D1CE0FB002FABE1 /* SwipGestureTranslaiton.h */,
+				D8F7EA961D1CE0FB002FABE1 /* SwipGestureTranslaiton.m */,
+			);
+			name = TranslationAnimaiton;
+			path = "类似京东分类的效果/TranslationAnimaiton";
+			sourceTree = SOURCE_ROOT;
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CEB61A391CED57B900B40FD1 /* 类似京东分类的效果 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CEB61A511CED57B900B40FD1 /* Build configuration list for PBXNativeTarget "类似京东分类的效果" */;
+			buildPhases = (
+				CEB61A361CED57B900B40FD1 /* Sources */,
+				CEB61A371CED57B900B40FD1 /* Frameworks */,
+				CEB61A381CED57B900B40FD1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "类似京东分类的效果";
+			productName = "类似京东分类的效果";
+			productReference = CEB61A3A1CED57B900B40FD1 /* 类似京东分类的效果.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CEB61A321CED57B900B40FD1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = lvyongtao;
+				TargetAttributes = {
+					CEB61A391CED57B900B40FD1 = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeamName = "永涛 吕 (Personal Team)";
+					};
+				};
+			};
+			buildConfigurationList = CEB61A351CED57B900B40FD1 /* Build configuration list for PBXProject "类似京东分类的效果" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CEB61A311CED57B900B40FD1;
+			productRefGroup = CEB61A3B1CED57B900B40FD1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CEB61A391CED57B900B40FD1 /* 类似京东分类的效果 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CEB61A381CED57B900B40FD1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEB61A4D1CED57B900B40FD1 /* LaunchScreen.storyboard in Resources */,
+				D837721E1D1A8899001593E4 /* TableViewCell.xib in Resources */,
+				D837721C1D1A8899001593E4 /* CollectionViewCell.xib in Resources */,
+				CEB61A4A1CED57B900B40FD1 /* Assets.xcassets in Resources */,
+				CEB61A481CED57B900B40FD1 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CEB61A361CED57B900B40FD1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D8F7EAA01D1D28B8002FABE1 /* FirstViewController.m in Sources */,
+				D8F7EA971D1CE0FB002FABE1 /* SwipGestureTranslaiton.m in Sources */,
+				D8F7EAA31D1D2AFC002FABE1 /* PushViewController.m in Sources */,
+				CEB61A451CED57B900B40FD1 /* PresentViewController.m in Sources */,
+				D837721D1D1A8899001593E4 /* TableViewCell.m in Sources */,
+				D837721B1D1A8899001593E4 /* CollectionViewCell.m in Sources */,
+				D837720E1D1A8827001593E4 /* DetailViewController.m in Sources */,
+				D837721F1D1A8899001593E4 /* collectionViewFlowLayout.m in Sources */,
+				D83772241D1A8971001593E4 /* TranslationAnimation.m in Sources */,
+				CEB61A421CED57B900B40FD1 /* AppDelegate.m in Sources */,
+				D83772201D1A8899001593E4 /* YXBJFCollectionViewFlowLayout.m in Sources */,
+				CEB61A3F1CED57B900B40FD1 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		CEB61A461CED57B900B40FD1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CEB61A471CED57B900B40FD1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CEB61A4B1CED57B900B40FD1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CEB61A4C1CED57B900B40FD1 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CEB61A4F1CED57B900B40FD1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		CEB61A501CED57B900B40FD1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CEB61A521CED57B900B40FD1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = "类似京东分类的效果/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = taoaim.com22222;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		CEB61A531CED57B900B40FD1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = "类似京东分类的效果/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = taoaim.com22222;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CEB61A351CED57B900B40FD1 /* Build configuration list for PBXProject "类似京东分类的效果" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEB61A4F1CED57B900B40FD1 /* Debug */,
+				CEB61A501CED57B900B40FD1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CEB61A511CED57B900B40FD1 /* Build configuration list for PBXNativeTarget "类似京东分类的效果" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEB61A521CED57B900B40FD1 /* Debug */,
+				CEB61A531CED57B900B40FD1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CEB61A321CED57B900B40FD1 /* Project object */;
+}
